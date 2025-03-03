@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: rgb(161, 162, 164);
+    color: rgb(78, 78, 49);
 }
 .wrapper{
     width: 100%;
@@ -42,12 +44,12 @@ img{
 }
 .content h1{
     font-size: 52px;
-    color: #ffe100;
+    color: #000;
     margin-bottom: 15px;
 }
 .content p{
     font-size: 25px;
-    color: #fff;
+    color: #000;
 }
 .content > *{
     transform: translateY(25px);
@@ -144,23 +146,58 @@ img{
     color: #fff;
     transition: .5s ease-in-out;
 }
-header {
+header h1 {
     background: none;
-    color: white;
+    color: black;
     padding: 20px;
     text-align: center;
-}
-
-header h1 {
     margin: 0;
 }
 
+header h3 {
+    color: #000;
+    text-align: center;
+}
+
 nav a {
-    color: white;
+    color:  rgb(0, 17, 51);
     text-decoration: none;
     margin: 0 10px;
 }
 
 nav a:hover {
    text-decoration: underline;
+}
+body {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p {
+    font-size: 1.1em;
+}
+main a[href^="mailto:"] {
+    color: rgb(0, 17, 51);
+    font-weight: bold;
 }
