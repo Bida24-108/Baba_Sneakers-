@@ -14,7 +14,7 @@
     align-items: center;
 }
 .image{
-    width: 80vh;
+    width: 90vh;
     position: relative;
 }
 img{
@@ -31,7 +31,7 @@ img{
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.393);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@ img{
 }
 
 .container form{
-    width: 670px;
+    width: 570px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -81,11 +81,11 @@ img{
     font-weight: 700;
     line-height: 2;
     margin-top: 20px;
-    width: 500px;
+    width: 400px;
     text-align: center;
 }
 .container form input{
-    width: 300px;
+    width: 200px;
     height: 50px;
     padding-left: 10px;
     outline: none;
@@ -106,7 +106,7 @@ img{
 .container form h4{
     color: 78,78,49;
     font-weight: 300;
-    width: 600px;
+    width: 500px;
     margin-top: 20px;
 }
 .container form textarea{
@@ -120,8 +120,8 @@ img{
     outline: none;
     min-height: 90px;
     max-height: 90px;
-    min-width: 620px;
-    max-width: 620px;
+    min-width: 420px;
+    max-width: 420px;
 }
 .container form h4{
     font-size: 20px;
