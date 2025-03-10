@@ -160,7 +160,7 @@ header h3 {
 }
 
 nav a {
-    color:  rgb(0, 17, 51);
+    color:  rgb(41, 1, 74);
     text-decoration: none;
     margin: 0 10px;
 }
@@ -187,9 +187,7 @@ main img {
     margin: 20px 0;
 }
 footer {
-    color: white;
     text-align: center;
-    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -201,3 +199,4 @@ main a[href^="mailto:"] {
     color: rgb(0, 17, 51);
     font-weight: bold;
 }
+
